@@ -1,8 +1,8 @@
 package response
 
 import (
-	"gin-general-module/utils"
 	"github.com/gin-gonic/gin"
+	"github.com/xiao9878/gin-general-module/utils"
 	"net/http"
 )
 
