@@ -1,4 +1,4 @@
-module gin-general-module
+module github.com/xiao9878/gin-general-module
 
 go 1.15
 
