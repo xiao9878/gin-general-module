@@ -2,15 +2,14 @@ package core
 
 import (
 	"fmt"
-	"gin-general-module/global"
 	"github.com/fsnotify/fsnotify"
 	"github.com/spf13/viper"
+	"github.com/xiao9878/gin-general-module/global"
 )
 
 func Viper(path string) *viper.Viper {
-	var config string
 	v := viper.New()
-	v.SetConfigFile(config)
+	v.SetConfigFile(path)
 	if err := v.ReadInConfig(); err != nil {
 		panic(fmt.Errorf("Fatal error config file: %s \n", err))
 	}

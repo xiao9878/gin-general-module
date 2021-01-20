@@ -1,8 +1,8 @@
 package global
 
 import (
-	"gin-general-module/config"
 	"github.com/spf13/viper"
+	"github.com/xiao9878/gin-general-module/config"
 	"go.uber.org/zap"
 	"gorm.io/gorm"
 )
