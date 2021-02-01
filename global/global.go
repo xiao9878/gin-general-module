@@ -12,4 +12,5 @@ var (
 	GVA_DB     *gorm.DB
 	GVA_VP     *viper.Viper
 	GVA_ZAP    *zap.Logger
+	GVA_LOG    *zap.Logger
 )
