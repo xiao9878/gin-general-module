@@ -2,10 +2,12 @@ package initialize
 
 import (
 	"github.com/xiao9878/gin-general-module/global"
+	"github.com/xiao9878/gin-general-module/initialize/internal"
 	"go.uber.org/zap"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
+	"os"
 )
 
 func Gorm() *gorm.DB {
